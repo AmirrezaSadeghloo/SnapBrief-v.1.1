@@ -1,0 +1,43 @@
+/* Base typography and spacing */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+.navbar-brand small {
+  font-weight: 400;
+  color: #666;
+}
+
+/* Gradient Hero Section */
+.gradient-background {
+  background: linear-gradient(135deg, #0d6efd, #4a90e2);
+}
+
+/* Button hover */
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+}
+
+/* Card tweaks */
+.card-title {
+  font-size: 1.25rem;
+}
+
+/* Mobile tweaks */
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+}
